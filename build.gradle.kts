@@ -2,9 +2,11 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
 }
+
 android {
     namespace = "com.yami.tradesai"
     compileSdk = 35
+
     defaultConfig {
         applicationId = "com.yami.tradesai"
         minSdk = 23
